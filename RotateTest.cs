@@ -16,14 +16,7 @@ public class RotateTest : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-      /*  if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            _spriteRenderer.flipX = true;
-        }
-        else
-        {
-            _spriteRenderer.flipX = false;
-        }*/
+     
 
         if (Input.GetKey(KeyCode.LeftArrow) && (Input.GetKey(KeyCode.UpArrow)))
         {
